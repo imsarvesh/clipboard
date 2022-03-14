@@ -25,3 +25,21 @@ https://openexc.zoom.us/w/95637895245?tk=18PTrR-hTErSi7xygw2gpyY4n8K0jy-jXtdWS-Z
 
 
 https://openexc.zoom.us/w/95637895245?tk=18PTrR-hTErSi7xygw2gpyY4n8K0jy-jXtdWS-ZzxAk.DQMAAAAWRHZ4TRZOeHlLcm9fcVFmR3lDWkJYTHZOaXNnAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA&pwd=bGYyQnFKYU0wRk1QZ0EwMkVEWnRRUT09&uuid=WN_onDnvdKIQbi5LRWy7X01dw
+
+
+ Hi Nick, 
+
+Please accept this letter as formal notice of my resignation from my position as Senior Software Engineer at TheHut Group. 
+My last day of employment will be 16th Jan 2022.
+
+Thank you for giving me the opportunity to work in this position.
+I have thoroughly enjoyed working here and appreciate all the opportunities you have given me.
+However, I have decided it is time for me to move on to my next challenge.
+
+I would like to do anything I can help with the transition, including wrapping up my responsibilities and training other members. 
+If I can be of any other assistance during this time, please let me know.
+
+Thank you again for the opportunity, and I wish you and team all the best for the future.
+
+Yours sincerely,
+Sarvesh Kumar Kesharwani
