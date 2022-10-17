@@ -1,5 +1,14 @@
 ## README
 ACTION REQUIRED: Download Orbit Suite 
+
+.shadow--bottom {
+  bottom: 0;
+  background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.35), transparent);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), transparent);
+}
+
+
+
 You are now on Installing Orbit, step 4 of the Getting Started guide. 
 
 To continue the Orbit Suite set up process, please visit https://login.gs.com/ from your personal device. 
