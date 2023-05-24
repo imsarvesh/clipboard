@@ -1,12 +1,6 @@
 # clipboard
 
-
-@graphql-codegen/cli": "3.2.2",
-    "@graphql-codegen/client-preset": "2.1.1",
-    "@graphql-codegen/introspection": "2.2.3",
-    "@graphql-codegen/typescript": "^2.8.5",
-    "@graphql-codegen/typescript-resolvers": "^2.7.10",
-
+    "codegen": "graphql-codegen --config codegen.ts"
 
 Defination of ready
 1. For Bug: Detail steps to reproduce (video or picture will be helpful too)
