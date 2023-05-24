@@ -1,5 +1,25 @@
 # clipboard
 
+
+import type { CodegenConfig } from '@graphql-codegen/cli';
+
+const config: CodegenConfig = {
+  overwrite: true,
+  schema: "http://localhost:3000/api/graphql",
+  documents: "Queries/**/*.ts",
+  generates: {
+    "types/typeDefs.d.ts": {
+      plugins: ["typescript", "typescript-operations"],
+    },
+    "./graphql.schema.json": {
+      plugins: ["introspection"],
+    },
+  },
+};
+
+export default config;
+
+
 Defination of ready
 1. For Bug: Detail steps to reproduce (video or picture will be helpful too)
 2. For Enhancement: Detail steps to verify the enhancement or change.  It will also be helpful to provide sample accounts. (But do not include password in radar, use attache)
