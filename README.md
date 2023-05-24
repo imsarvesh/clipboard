@@ -1,23 +1,11 @@
 # clipboard
 
 
-import type { CodegenConfig } from '@graphql-codegen/cli';
-
-const config: CodegenConfig = {
-  overwrite: true,
-  schema: "http://localhost:3000/api/graphql",
-  documents: "Queries/**/*.ts",
-  generates: {
-    "types/typeDefs.d.ts": {
-      plugins: ["typescript", "typescript-operations"],
-    },
-    "./graphql.schema.json": {
-      plugins: ["introspection"],
-    },
-  },
-};
-
-export default config;
+@graphql-codegen/cli": "3.2.2",
+    "@graphql-codegen/client-preset": "2.1.1",
+    "@graphql-codegen/introspection": "2.2.3",
+    "@graphql-codegen/typescript": "^2.8.5",
+    "@graphql-codegen/typescript-resolvers": "^2.7.10",
 
 
 Defination of ready
