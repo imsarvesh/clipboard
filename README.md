@@ -1,6 +1,12 @@
 # clipboard
 
     "codegen": "graphql-codegen --config codegen.ts"
+    
+    "@graphql-codegen/cli": "4.0.0",
+    "@graphql-codegen/introspection": "4.0.0",
+    "@graphql-codegen/client-preset": "4.0.0"
+    
+    
 
 Defination of ready
 1. For Bug: Detail steps to reproduce (video or picture will be helpful too)
