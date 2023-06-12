@@ -18,6 +18,9 @@ const config: CodegenConfig = {
   },
 };
 
+
+//"codegen": "graphql-codegen --config codegen.ts"
+
 export default config;
 
 
