@@ -1,6 +1,10 @@
 # clipboard
 
-
+/*
+"download-schema": "apollo service:download --endpoint=http://localhost:4000/ graphql-schema.json",
+ "codegen": "npm run download-schema && apollo codegen:generate --localSchemaFile=graphql-schema.json,client-schema.graphql --target=typescript --tagName=gql"
+ 
+ */
 
 import type { CodegenConfig } from '@graphql-codegen/cli';
 
