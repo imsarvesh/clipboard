@@ -1,130 +1,140 @@
-# clipboard
+`
+import { act, renderHook, RenderHookResult } from '@testing-library/react-hooks';
+import { useTimeout } from '../src';
+import { UseTimeoutReturn } from '../src/useTimeout';
 
-/*
-"download-schema": "apollo service:download --endpoint=http://localhost:4000/ graphql-schema.json",
- "codegen": "npm run download-schema && apollo codegen:generate --localSchemaFile=graphql-schema.json,client-schema.graphql --target=typescript --tagName=gql"
- 
- */
+beforeAll(() => {
+  jest.useFakeTimers();
+});
 
-export function useTimeout(callback: () => void, delay: number | null) {
-  const savedCallback = useRef(callback)
+afterEach(() => {
+  jest.clearAllTimers();
+});
 
-  // Remember the latest callback if it changes.
-  useIsomorphicLayoutEffect(() => {
-    savedCallback.current = callback
-  }, [callback])
+afterAll(() => {
+  jest.useRealTimers();
+});
 
-  // Set up the timeout.
-  useEffect(() => {
-    // Don't schedule if no delay is specified.
-    // Note: 0 is a valid value for delay.
-    if (!delay && delay !== 0) {
-      return
-    }
+it('should be defined', () => {
+  expect(useTimeout).toBeDefined();
+});
 
-    const id = setTimeout(() => savedCallback.current(), delay)
+it('should return three functions', () => {
+  const hook = renderHook(() => useTimeout(5));
 
-    return () => clearTimeout(id)
-  }, [delay])
+  expect(hook.result.current.length).toBe(3);
+  expect(typeof hook.result.current[0]).toBe('function');
+  expect(typeof hook.result.current[1]).toBe('function');
+  expect(typeof hook.result.current[2]).toBe('function');
+});
+
+function getHook(
+  ms: number = 5
+): [jest.Mock, RenderHookResult<{ delay: number }, UseTimeoutReturn>] {
+  const spy = jest.fn();
+  return [
+    spy,
+    renderHook(
+      ({ delay = 5 }) => {
+        spy();
+        return useTimeout(delay);
+      },
+      { initialProps: { delay: ms } }
+    ),
+  ];
 }
 
+it('should re-render component after given amount of time', (done) => {
+  const [spy, hook] = getHook();
+  expect(spy).toHaveBeenCalledTimes(1);
+  hook.waitForNextUpdate().then(() => {
+    expect(spy).toHaveBeenCalledTimes(2);
+    done();
+  });
+  jest.advanceTimersByTime(5);
+});
 
- 
-# clipboard
+it('should cancel timeout on unmount', () => {
+  const [spy, hook] = getHook();
 
-/*
-"download-schema": "apollo service:download --endpoint=http://localhost:4000/ graphql-schema.json",
- "codegen": "npm run download-schema && apollo codegen:generate --localSchemaFile=graphql-schema.json,client-schema.graphql --target=typescript --tagName=gql"
- 
- */
+  expect(spy).toHaveBeenCalledTimes(1);
+  hook.unmount();
+  jest.advanceTimersByTime(5);
+  expect(spy).toHaveBeenCalledTimes(1);
+});
 
-import type { CodegenConfig } from '@graphql-codegen/cli';
+it('first function should return actual state of timeout', (done) => {
+  let [, hook] = getHook();
+  let [isReady] = hook.result.current;
 
-const config: CodegenConfig = {
-  overwrite: true,
-  schema: "http://localhost:3000/api/graphql",
-  documents: "Queries/**/*.ts",
-  generates: {
-    "types/typeDefs.d.ts": {
-      plugins: ["typescript", "typescript-operations"],
-    },
-    "./graphql.schema.json": {
-      plugins: ["introspection"],
-    },
-  },
-};
+  expect(isReady()).toBe(false);
+  hook.unmount();
+  expect(isReady()).toBe(null);
 
+  [, hook] = getHook();
+  [isReady] = hook.result.current;
+  hook.waitForNextUpdate().then(() => {
+    expect(isReady()).toBe(true);
 
-//"codegen": "graphql-codegen --config codegen.ts"
+    done();
+  });
+  jest.advanceTimersByTime(5);
+});
 
-export default config;
+it('second function should cancel timeout', () => {
+  const [spy, hook] = getHook();
+  const [isReady, cancel] = hook.result.current;
 
+  expect(spy).toHaveBeenCalledTimes(1);
+  expect(isReady()).toBe(false);
 
-    "codegen": "graphql-codegen --config codegen.ts"
-    
-    "@graphql-codegen/cli": "4.0.0",
-    "@graphql-codegen/introspection": "4.0.0",
-    "@graphql-codegen/client-preset": "4.0.0"
-    
-    
+  act(() => {
+    cancel();
+  });
+  jest.advanceTimersByTime(5);
 
-Defination of ready
-1. For Bug: Detail steps to reproduce (video or picture will be helpful too)
-2. For Enhancement: Detail steps to verify the enhancement or change.  It will also be helpful to provide sample accounts. (But do not include password in radar, use attache)
-3. For sub-task radars, please state “No QA required” and mention the parent radar instead.
+  expect(spy).toHaveBeenCalledTimes(1);
+  expect(isReady()).toBe(null);
+});
 
+it('third function should reset timeout', (done) => {
+  const [spy, hook] = getHook();
+  const [isReady, cancel, reset] = hook.result.current;
 
-Defination of Done
-1. Requirement document attached?: <Yes/No> , Reviewed: <Yes/No> 
-2. Test plan attached?: <Yes/No> , Reviewed: <Yes/No> 
-3. Followed Simple coding guidelines? : <Yes/No>
-4. SonarLint checked? : <Yes/No>
-5. Dev testing done based on the test plan?: <Yes/No>
-6. Screen recording or screenshot for the fix attached? : <Yes/No> , Reviewed: <Yes/No> 
-7. Ticket Tracked in UAT, Prod : <Till where its tracked> or we can make Yes/No
+  expect(isReady()).toBe(false);
 
+  act(() => {
+    cancel();
+  });
+  jest.advanceTimersByTime(5);
 
-import type { CodegenConfig } from '@graphql-codegen/cli';
+  expect(isReady()).toBe(null);
 
-const config: CodegenConfig = {
-  overwrite: true,
-  schema: "http://localhost:3000/api/graphql",
-  documents: "Queries/**/*.ts",
-  generates: {
-    "types/typeDefs.d.ts": {
-      plugins: ["typescript", "typescript-operations"],
-    },
-    "./graphql.schema.json": {
-      plugins: ["introspection"],
-    },
-  },
-};
+  act(() => {
+    reset();
+  });
+  expect(isReady()).toBe(false);
 
+  hook.waitForNextUpdate().then(() => {
+    expect(spy).toHaveBeenCalledTimes(2);
+    expect(isReady()).toBe(true);
 
-//"codegen": "graphql-codegen --config codegen.ts"
+    done();
+  });
+  jest.advanceTimersByTime(5);
+});
 
-export default config;
+it('should reset timeout on delay change', (done) => {
+  const [spy, hook] = getHook(15);
 
+  expect(spy).toHaveBeenCalledTimes(1);
+  hook.rerender({ delay: 5 });
 
-    "codegen": "graphql-codegen --config codegen.ts"
-    
-    "@graphql-codegen/cli": "4.0.0",
-    "@graphql-codegen/introspection": "4.0.0",
-    "@graphql-codegen/client-preset": "4.0.0"
-    
-    
+  hook.waitForNextUpdate().then(() => {
+    expect(spy).toHaveBeenCalledTimes(3);
 
-Defination of ready
-1. For Bug: Detail steps to reproduce (video or picture will be helpful too)
-2. For Enhancement: Detail steps to verify the enhancement or change.  It will also be helpful to provide sample accounts. (But do not include password in radar, use attache)
-3. For sub-task radars, please state “No QA required” and mention the parent radar instead.
-
-
-Defination of Done
-1. Requirement document attached?: <Yes/No> , Reviewed: <Yes/No> 
-2. Test plan attached?: <Yes/No> , Reviewed: <Yes/No> 
-3. Followed Simple coding guidelines? : <Yes/No>
-4. SonarLint checked? : <Yes/No>
-5. Dev testing done based on the test plan?: <Yes/No>
-6. Screen recording or screenshot for the fix attached? : <Yes/No> , Reviewed: <Yes/No> 
-7. Ticket Tracked in UAT, Prod : <Till where its tracked> or we can make Yes/No
+    done();
+  });
+  jest.advanceTimersByTime(15);
+});
+`
