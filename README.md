@@ -1,4 +1,9 @@
 
+https://appleinc.webex.com/appleinc/j.php?MTID=m9fec387efb28634f18777efb35166748
+
+
+https://app.coderpad.io/PFC7TCDH
+
 https://appleinc.webex.com/appleinc/j.php?MTID=m8fdd72de010036d624f92475ea4c35de
 
 [Teammate's Name] is a highly reliable and skilled backend developer who plays a crucial role in the team's success. He has a strong understanding of system design and backend architecture, and his contributions consistently strengthen our overall codebase. He is very approachable, collaborative, and always willing to pair up to clarify requirements or help others understand technical details. His proactive approach to communication ensures alignment across frontend and backend teams. He is detail-oriented, quick to adapt, and consistently delivers high-quality work. His positive attitude and team-first mindset make him a pleasure to work with and an essential part of our team.
