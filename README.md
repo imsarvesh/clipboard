@@ -1,4 +1,24 @@
 
+Part 1: Work Experience (15 Minutes) This section is an opportunity for us to learn about your background, previous roles, and the impact you have made in your past projects.
+What to expect: Questions about your past projects, your specific contributions, challenges you faced, and how you solved them.
+How to prepare: Review your resume and pick 2 or 3 significant projects to discuss. Practice using the STAR method (Situation, Task, Action, Result) to keep your answers concise and impactful. Be ready to explain the technical trade-offs you made in those projects.
+
+Part 2: Technical Skills (30 Minutes) This conversational segment will evaluate your core technical knowledge and theoretical understanding across four key areas of our tech stack.
+JavaScript: Brush up on core concepts like closures, promises, async/await, event loops, ES6+ features, and scope.
+APIs: Be prepared to discuss API design principles (like REST or GraphQL), HTTP methods, status codes, authentication, and how to efficiently consume APIs from the frontend.
+Databases: Review foundational database concepts, including the differences between relational (SQL) and non-relational (NoSQL) databases, basic querying, indexing, and data modeling.
+Web Development: Expect questions on general web architecture, browser rendering, web performance optimization, and fundamental security practices (like CORS, XSS, and CSRF).
+
+Part 3: Coding Exercise (30 Minutes) This is a hands-on session on CoderPad where you will write code to solve a specific technical problem.
+What to expect: A live coding environment where you will be given a prompt to build a small feature, manipulate data, or solve an algorithmic challenge using JavaScript.
+How to prepare: Practice solving coding problems on platforms like LeetCode or HackerRank. During the interview, remember to think out loud. Your communication and problem-solving process are just as important as getting the final working code. Ask clarifying questions before you start typing, and do not hesitate to start with a brute-force approach before optimizing.
+
+Part 4: Candidate Q&A (15 Minutes) This final section is dedicated to you. It is your opportunity to interview us and learn more about the role, the team, and the company culture.
+What to expect: An open floor for you to ask the interviewers anything you are curious about regarding the position, day-to-day responsibilities, or the team's current projects.
+How to prepare: Prepare 3 to 5 thoughtful questions in advance. Great topics to ask about include the engineering culture, typical challenges the team faces, opportunities for growth, how performance is measured, or what success looks like in the first 90 days.
+
+
+
 https://appleinc.webex.com/appleinc/j.php?MTID=m9fec387efb28634f18777efb35166748
 
 
