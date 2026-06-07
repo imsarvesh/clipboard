@@ -1,3 +1,5 @@
+https://youtu.be/oumoMZLhxjQ?si=hIVil59leARMyp7Y
+
 
 Part 1: Work Experience (15 Minutes) This section is an opportunity for us to learn about your background, previous roles, and the impact you have made in your past projects.
 What to expect: Questions about your past projects, your specific contributions, challenges you faced, and how you solved them.
