@@ -2,6 +2,55 @@ Today
 WebEx: https://appleinc.webex.com/appleinc/j.php?MTID=m9fec387efb28634f18777efb35166748
 Coderpad: https://app.coderpad.io/PFC7TCDH
 
+frontend leadership,
+full-stack architecture,
+distributed systems,
+product ownership,
+scaling teams,
+cloud systems,
+React expertise.
+
+
+“Why Apple?”
+
+Expected themes:
+
+ecosystem quality,
+high engineering standards,
+scale,
+media/production systems complexity,
+cross-functional collaboration.
+
+
+
+
+“Why are you interested in Services Technology?”
+
+You should connect:
+
+media workflows,
+high-scale internal platforms,
+integration-heavy systems,
+engineering quality,
+operational excellence.
+
+
+
+
+How would you design a scalable REST API?
+
+Cover:
+
+versioning
+authentication
+rate limiting
+pagination
+caching
+validation
+observability
+retries
+idempotency
+load balancing
 
 
 https://youtu.be/oumoMZLhxjQ?si=hIVil59leARMyp7Y
