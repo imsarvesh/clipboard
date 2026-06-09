@@ -1,3 +1,9 @@
+Today
+WebEx: https://appleinc.webex.com/appleinc/j.php?MTID=m9fec387efb28634f18777efb35166748
+Coderpad: https://app.coderpad.io/PFC7TCDH
+
+
+
 https://youtu.be/oumoMZLhxjQ?si=hIVil59leARMyp7Y
 
 
