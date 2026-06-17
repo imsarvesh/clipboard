@@ -1,0 +1,9 @@
+type,amount,account,category,date,note,tags
+expense,42.50,Checking,Food,2026-06-10,Whole Foods groceries,groceries
+expense,18.00,Checking,,2026-06-11,Coffee shop run,
+expense,65.00,Checking,Transport,2026-06-12,Uber to airport,travel
+income,4200.00,Checking,Salary,2026-06-01,June paycheck,work
+expense,150.00,Savings,Bills,2026-06-05,Electric bill,utilities
+income,950.00,Checking,Freelance,2026-06-08,Logo design project,freelance; client
+expense,29.99,Checking,,2026-06-14,Amazon order,
+expense,12.50,Savings,Food,2026-06-15,Lunch out,restaurants
