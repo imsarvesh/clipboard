@@ -4,6 +4,14 @@ https://appleinc.webex.com/appleinc/j.php?MTID=mb6be530eb98ffad4ded5bef14ce8d4b0
 
 https://app.coderpad.io/QNE9HDGP
 
+Strong experience with HTML5, CSS3, and TypeScript,  modern frameworks such as React 
+
+ Strong experience building institutional trading tools in Financial Markets 
+
+I've spent much of my career building complex, data-intensive user interfaces. 
+
+I've built large-scale, real-time applications and have experience leading complex frontend initiatives. The technical challenges around streaming data, performance, scalability, and user experience are areas where I have significant expertise.
+
 
 frontend leadership,
 full-stack architecture,
