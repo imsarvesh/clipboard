@@ -1,6 +1,9 @@
 Today
-WebEx: https://appleinc.webex.com/appleinc/j.php?MTID=m9fec387efb28634f18777efb35166748
-Coderpad: https://app.coderpad.io/PFC7TCDH
+
+https://appleinc.webex.com/appleinc/j.php?MTID=mb6be530eb98ffad4ded5bef14ce8d4b0
+
+https://app.coderpad.io/QNE9HDGP
+
 
 frontend leadership,
 full-stack architecture,
