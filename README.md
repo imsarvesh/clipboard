@@ -1,8 +1,7 @@
 Today
 
-https://appleinc.webex.com/appleinc/j.php?MTID=mb6be530eb98ffad4ded5bef14ce8d4b0
+https://appleinc.webex.com/appleinc/j.php?MTID=m4c9be5b1f452219e1b0a1575fc50b337
 
-https://app.coderpad.io/QNE9HDGP
 
 Strong experience with HTML5, CSS3, and TypeScript,  modern frameworks such as React 
 
