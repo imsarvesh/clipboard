@@ -1,0 +1,40 @@
+id,type,amount,account,category,subcategory,date,note,tags
+88,expense,5.51,Personal Expenses,Bills,Groceries,2026-01-27,Card Purchase Aldi Stores Ltd On 26 Jan,
+87,expense,1.45,Personal Expenses,Personal,Snacks & Braverage,2026-01-27,Card Purchase Selecta U.K On 26 Jan,London; Food
+81,expense,13,Personal Expenses,Transport,Public Transport,2026-01-26,Card Purchase Tfl Travel CH On 22 Jan,London
+80,expense,9.4,Personal Expenses,Transport,Public Transport,2026-01-26,Card Purchase Tfl Travel CH On 23 Jan,London
+79,expense,9,Personal Expenses,Personal,Snacks & Braverage,2026-01-26,Card Purchase SP Lolas Cupcakes On 23 Jan,Food; London
+78,expense,6.99,Personal Expenses,Health,Activity,2026-01-26,Card Purchase Leith Victoria Swi On 24 Jan,Swimming
+77,expense,5.95,Personal Expenses,Personal,Restaurants,2026-01-26,Card Purchase Rishis Indian Arom On 23 Jan,Food
+76,expense,3.5,Personal Expenses,Health,Activity,2026-01-26,Card Purchase Leith Victoria Swi On 24 Jan,Swimming
+75,expense,2.2,Personal Expenses,Transport,Public Transport,2026-01-26,Card Purchase Lothian Buses Edtr On 24 Jan,
+74,expense,1.45,Personal Expenses,Personal,Snacks & Braverage,2026-01-26,Card Purchase Selecta U.K On 23 Jan,Food; London
+73,expense,13,Personal Expenses,Transport,Public Transport,2026-01-23,Card Purchase Tfl Travel CH On 21 Jan,London
+72,expense,1.45,Personal Expenses,Personal,Snacks & Braverage,2026-01-23,Card Purchase Selecta U.K On 22 Jan,Food
+71,expense,15.38,Personal Expenses,Other,Digital,2026-01-23,"Card Payment to Cursor, AI Powered USA USD 20.00 On 22 Jan",
+70,expense,13,Personal Expenses,Transport,Public Transport,2026-01-22,Card Purchase Tfl Travel CH On 20 Jan,London
+69,expense,1.45,Personal Expenses,Personal,Snacks & Braverage,2026-01-22,Card Purchase Selecta U.K On 21 Jan,Food; London
+68,expense,1.25,Personal Expenses,Bills,Groceries,2026-01-22,Card Purchase Co-Op Group Food On 21 Jan,Food; London
+67,expense,14.9,Personal Expenses,Personal,Restaurants,2026-01-21,Card Purchase Wagamama Limited 1 On 20 Jan,Food; London
+66,expense,10,Personal Expenses,Transport,Public Transport,2026-01-21,Card Purchase Tfl Travel CH On 19 Jan,London
+65,expense,4.92,Personal Expenses,Bills,Groceries,2026-01-21,Card Purchase Co-Op Group Food On 20 Jan,London
+64,expense,2.2,Personal Expenses,Transport,Public Transport,2026-01-21,Card Purchase Lothian Buses Edtr On 20 Jan,
+62,expense,16,Personal Expenses,Personal,Wellness & Care,2026-01-19,Card Purchase Sumup *Khalid Barb On 18 Jan,Salon
+61,expense,3.2,Personal Expenses,Personal,Snacks & Braverage,2026-01-19,Card Purchase Scotmid Coop 0090 On 17 Jan,Coffee
+60,expense,2.2,Personal Expenses,Transport,Public Transport,2026-01-14,Card Purchase Lothian Buses Edtr On 13 Jan,
+59,expense,13,Personal Expenses,Transport,Public Transport,2026-01-12,Card Purchase Tfl Travel CH On 08 Jan,London
+58,expense,9.4,Personal Expenses,Transport,Public Transport,2026-01-12,Card Purchase Tfl Travel CH On 09 Jan,London
+57,expense,2.2,Personal Expenses,Transport,Public Transport,2026-01-12,Card Purchase Lothian Buses Edtr On 10 Jan,
+56,expense,13,Personal Expenses,Transport,Public Transport,2026-01-09,Card Purchase Tfl Travel CH On 07 Jan,London
+55,expense,3.75,Personal Expenses,Personal,Snacks & Braverage,2026-01-09,Card Purchase One Cabot Square On 08 Jan,Food; London
+54,expense,1,Personal Expenses,Personal,Snacks & Braverage,2026-01-08,Card Purchase Co-Op Group Food On 07 Jan,Food; London
+53,expense,19.35,Personal Expenses,Other,Gift & Donations,2026-01-07,"Chocolates for Office Folks, Card Purchase News On The Wharf On 06 Jan",London
+52,expense,12.3,Personal Expenses,Transport,Public Transport,2026-01-07,Card Purchase Tfl Travel CH On 05 Jan,London
+51,expense,10.7,Personal Expenses,Transport,Public Transport,2026-01-07,Card Purchase Tfl Travel CH On 06 Jan,London
+50,expense,2.2,Personal Expenses,Transport,Public Transport,2026-01-07,Card Purchase Lothian Buses Edtr On 06 Jan,
+49,expense,46,Personal Expenses,Transport,Public Transport,2026-01-06,Card Purchase Stansted Express On 05 Jan,London
+47,expense,28.99,Personal Expenses,Transport,Public Transport,2026-01-02,Card Payment to Easyjet 000Kbngp4Z On 01 Jan,Flight
+45,expense,3.3,Personal Expenses,Transport,Car,2025-12-30,Card Purchase Ringgo Parking On 29 Dec,Parking
+42,expense,15.49,Personal Expenses,Personal,Entertainment,2025-12-29,Card Purchase Vue Cinemas On 27 Dec,Movie
+41,expense,1.3,Personal Expenses,Personal,Snacks & Braverage,2025-12-29,Card Purchase Nestle UK Limited On 28 Dec,
+40,expense,15.32,Personal Expenses,Other,Digital,2025-12-29,"Card Payment to Cursor, AI Powered USA USD 20.00 On 24 Dec",
