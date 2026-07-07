@@ -6,15 +6,6 @@ Passcode: Zc3iA2Lw
 
 Today
 
-Citi (UK) Pension Plan
-Post: WTW, Sunderland SR43 4JU
-
-A letter from your employer confirming your continuous employment for at least three months, ending on the date you requested the transfer. The letter must include the date your continuous employment began, confirmation that your employer is a sponsoring employer of the receiving scheme, and confirmation that contributions listed on the schedule of contributions have been paid, including the dates of those payments. Please request this from your employer.
-A schedule of contributions or payment schedule showing the contributions due to be paid by your employer, the contributions paid by or on your behalf in the three months prior to your transfer request, and the due dates for those contributions. Please request this from your employer.
-
-
-
-
 Strong experience with HTML5, CSS3, and TypeScript,  modern frameworks such as React 
 
  Strong experience building institutional trading tools in Financial Markets 
